@@ -1,0 +1,88 @@
+.card1 {
+    background-color: rgba(60, 79, 59, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.card1-introduction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    width: 100%;
+    flex-direction: row;
+    max-width: 1350px;
+}
+
+.card1-introduction h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: #3A4F39;
+
+}
+
+.card1-image-div {
+
+}
+
+.venn-diagram {
+    height: 30em;
+}
+
+.card1-header-div {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    width: fit-content;
+}
+
+.card1-information {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    position: relative;
+}
+
+.card1-information div {
+    background-color: white;
+    text-align: center;
+    padding: 3em;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card1-information h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.box-icon {
+    margin-bottom: .5em;
+    font-size: 2em;
+}
+
+.line1 {
+    position: absolute;
+    left: 17.6%;
+    top: 4em;
+    width: 30%;
+    height: 10px;
+}
+
+.line2 {
+    position: absolute;
+    right: 17.6%;
+    top: 4em;
+    width: 30%;
+    height: 10px;
+}

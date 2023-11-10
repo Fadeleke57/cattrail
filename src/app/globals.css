@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    padding: 0;
+  }
+    
+  body {
+    background: #ffffff;
+    font-family: sans-serif;
+    padding: 0;
+  }
+    
+  header {
+    min-height: 100vh;
+    background-image: url("./componets/images/paws_in_snow_2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  section {
+    padding: 7em;
+    display: flex;
+  }
