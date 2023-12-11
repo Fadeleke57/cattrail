@@ -307,6 +307,11 @@ the accordion item with the active class*/
         width: 14em;
         height: 5em;
     }
+    .accordion-item-title h2 {
+        font-size: 1.45em;
+        color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
 }
 
 @media screen and (max-width: 400px) {
