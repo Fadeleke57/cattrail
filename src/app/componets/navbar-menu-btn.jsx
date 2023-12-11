@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NavbarMenuBtn.css'; 
+import './navbarMenuBtn.css'; 
 
 const NavbarMenuBtn = ({ onClick, isActive, setIsActive }) => {
 
