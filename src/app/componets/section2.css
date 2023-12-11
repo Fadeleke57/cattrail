@@ -305,7 +305,10 @@ the accordion item with the active class*/
         width: 23em;
     }
     .item-active {
-        height: 53em;
+        height: 50em;
+    }
+    .accordion-item-information {
+        top: 22%;
     }
     .item-active .accordion-item-title {
         position: absolute;
@@ -327,11 +330,11 @@ the accordion item with the active class*/
     }
 
     .accordion-item-information {
-        top: 20%;
+        top: 19%;
     }
 
     .item-active {
-        height: 64em;
+        height: 57em;
     }
     .card2-header a {
     
