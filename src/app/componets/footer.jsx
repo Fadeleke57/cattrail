@@ -3,7 +3,7 @@ import './footer.css';
 import Image from 'next/image';
 import CatLogo from './images/cat_logo.svg';
 import LinkedIn from './images/linkedIn.svg';
-import LinkedInWhite from './images/linkedin_white.svg'
+import LinkedInWhite from './images/linkedIn_white.svg'
 import CatLogoWhite from './images/cat_logo_white.svg'
 
 function Footer () {
