@@ -298,7 +298,7 @@ the accordion item with the active class*/
         width: 23em;
     }
     .item-active {
-        height: 48em;
+        height: 51em;
     }
     .item-active .accordion-item-title {
         position: absolute;
