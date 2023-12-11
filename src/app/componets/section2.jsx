@@ -13,20 +13,12 @@ import { Fade } from "react-awesome-reveal";
 function Section2() {
     const [activeItem, setActiveItem] = useState(0);
     const [isMobile, setIsMobile] = useState(false);
-    const [isPad, setIsPad] = useState(false);
-    const [isSkinny, setIsSkinny] = useState(false);
 
     useEffect(() => {
       const handleResize = () => {
 
-          const shouldBePad = window.innerWidth <= 1300;
-          setIsPad(shouldBePad);
-
           const shouldBeMobile = window.innerWidth <= 700;
           setIsMobile(shouldBeMobile);
-
-          const shouldBeSkinny = window.innerWidth <= 400;
-          setIsSkinny(shouldBeSkinny);
 
       };
 
@@ -57,14 +49,14 @@ function Section2() {
         alt: 'Russell Dekker',
         title: 'Russell Dekker',
         subtitle: 'PARTNER',
-        description: 'Russell Dekker is a Partner of Cat Trail and serves on Cat Trail&#39;s investment committee. \n \n From 1990 through 2004, Russell served as Chief Publishing Officer of Marcel Dekker, Inc. From 2004 through 2009, he was the Founder and Managing Director of Summit Communications, LLC. Russell is a Trustee of the Dekker Foundation (www.dekker.org). \n \n Russell received a BA degree cum laude with high honors from Hobart College in 1990 and an MA degree from New York University in 1994. \n \n Additional background information can be found on the history page. \n \n \n \n \n \n \n' + (isPad? '' : '\n \n \n') + (isMobile ? '\n \n \n \n \n \n \n \n': '') + (isSkinny ? '\n \n \n \n \n \n' : ''),
+        description: 'Russell Dekker is a Partner of Cat Trail and serves on Cat Trail&#39;s investment committee. \n \n From 1990 through 2004, Russell served as Chief Publishing Officer of Marcel Dekker, Inc. From 2004 through 2009, he was the Founder and Managing Director of Summit Communications, LLC. Russell is a Trustee of the Dekker Foundation (www.dekker.org). \n \n Russell received a BA degree cum laude with high honors from Hobart College in 1990 and an MA degree from New York University in 1994. \n \n Additional background information can be found on the history page.',
       },
       {
         imgSrc: AndrewBudinoff,
         alt: 'Andrew Budinoff',
         title: 'Andrew Budinoff',
         subtitle: 'DIRECTOR',
-        description: 'Andrew Budinoff is Director of Portfolio Management and Trading at Cat Trail. Andrew is responsible for development and execution of Cat Trail&#39;s various internally managed trading strategies. Andrew is also responsible for developing and managing the firm&#39;s asset allocation model as well as portfolio risk and performance analytics. \n \nPrior to joining Cat Trail, Andrew was an analyst at Point Clear Capital Management (PCCM). Prior to joining PCCM, Andrew completed internships with UBS&#39;s private bank and JP Morgan.\n \n Andrew received a Bachelor of Science Degree from Boston College&#39;s Carroll School of Management. He also earned an MBA from NYU&#39;s Stern School of Business specializing in Quantitative Finance and Financial Instruments & Markets. Andrew is a CFA® charterholder.\n \n \n \n \n ' + (isPad ? '' : '\n \n \n \n') + (isMobile ? '\n \n \n \n \n \n': '') + (isSkinny ? ' \n \n \n' : ''),
+        description: 'Andrew Budinoff is Director of Portfolio Management and Trading at Cat Trail. Andrew is responsible for development and execution of Cat Trail&#39;s various internally managed trading strategies. Andrew is also responsible for developing and managing the firm&#39;s asset allocation model as well as portfolio risk and performance analytics. \n \n Prior to joining Cat Trail, Andrew was an analyst at Point Clear Capital Management (PCCM). Prior to joining PCCM, Andrew completed internships with UBS&#39;s private bank and JP Morgan.\n \n Andrew received a Bachelor of Science Degree from Boston College&#39;s Carroll School of Management. He also earned an MBA from NYU&#39;s Stern School of Business specializing in Quantitative Finance and Financial Instruments & Markets. Andrew is a CFA® charterholder.',
       },
     ];
 
@@ -122,12 +114,12 @@ function Section2() {
 
         <Fade direction='up' triggerOnce>
         <div className="accordion">
-          {accordionItems.map((item, index) => (
+            {accordionItems.map((item, index) => (
             <div
               key={index}
               className={`accordion-item ${index === activeItem ? 'item-active' : ''}`}
               onClick={() => handleItemClick(index)}
-            >
+              >
               <Image className='accordion-item-pfp' src={item.imgSrc} alt={item.alt} />
 
               <div className='accordion-item-title'>
@@ -136,7 +128,7 @@ function Section2() {
               </div>
 
                 <div className='accordion-item-information'>
-                <p dangerouslySetInnerHTML={{ __html: item.description.replace(/\n/g, '<br/>') }} />
+                  <p dangerouslySetInnerHTML={{ __html: item.description.replace(/\n/g, '<br/>') }} />
                 </div>
             </div>
           ))}

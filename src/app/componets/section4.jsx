@@ -29,8 +29,7 @@ function Section4 () {
                     <h3></h3>
                     <h3>Mailing Address<FontAwesomeIcon icon={faEnvelope} className="contact-icon" /></h3>
                     <p>
-                    CAT TRAIL - PO BOX 190<br/> 
-                    WESTPORT, CT 06881
+                    CAT TRAIL <br></br>606 Post Road East Suite 681  <br></br>WESTPORT, CT 06880
                     </p>
                     <br/>
                     <h3>Phone<FontAwesomeIcon icon={faPhone} className="contact-icon"/></h3>

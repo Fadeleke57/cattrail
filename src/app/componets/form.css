@@ -3,14 +3,14 @@
 }
 
 .form input{
-    width:100%;
-    padding:10px;
-    box-sizing:border-box;
-    background:none;
-    outline:none;
-    resize:none;
-    border:0;
-    font-family:'Montserrat',sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montserrat',sans-serif;
     transition: all .4s;
     border-bottom: 3px solid #000000;
     margin-bottom: 2em;
@@ -20,12 +20,12 @@
     border-bottom:3px solid #78788c
 }
 
-.form  p:before {
-    content:attr(type);
+.form p:before {
+    content: attr(type);
     display: block;
     margin: 28px 0 9px;
     font-size: 1em;
-    color:#000000;
+    color: #000000;
     font-weight: 700;
 
 }

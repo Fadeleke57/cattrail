@@ -14,19 +14,16 @@ function Footer () {
           <p>For inquiries or information, contact us above.</p>
           <ul className="footer-menu">
             <li>
-              <a href="#" key="1">Home</a>
+              <a href="#About" key="1">What We Do</a>
             </li>
             <li>
               <a href="#Team" key="2">Who We Are</a>
             </li>
             <li>
-              <a href="#About" key="3">What We Do</a>
+              <a href="#History" key="3">History</a>
             </li>
             <li>
-              <a href="#History" key="4">History</a>
-            </li>
-            <li>
-              <a href="#Contact" key="5">Contact</a>
+              <a href="#Contact" key="4">Contact</a>
             </li>
           </ul>
     

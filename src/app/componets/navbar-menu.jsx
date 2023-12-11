@@ -12,8 +12,8 @@ function Menu({ menuOpen, setMenuOpen, setIsActive }) {
  
   const linkNames = [
     <Image src={CattrailLogo} className='menu-logo' alt='logo'></Image>,
-    'Who We Are',
     'What We Do',
+    'Who We Are',
     'History',
     'Contact',
     <Button 

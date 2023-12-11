@@ -61,6 +61,9 @@
     border-bottom: 2px transparent solid;
     cursor: pointer;
     transition: 200ms cubic-bezier(.91,.36,.84,.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .accordion-item {
@@ -144,6 +147,12 @@ the accordion item with the active class*/
     margin-bottom: 0.2em;
 }
 
+.accordion-item-information {
+    width: 100%;
+    position: absolute;
+    top: 29%;
+}
+
 .accordion-item p {
     font-size: 0.91em;
     font-weight: 500;
@@ -178,8 +187,6 @@ the accordion item with the active class*/
     opacity: 1;
 }
 
-
-
 @media screen and (max-width: 1300px) {
 
     .card2-header-buttons {
@@ -203,7 +210,7 @@ the accordion item with the active class*/
         height: 12em;
     }
     .item-active {
-        height: 33em;
+        height: 35em;
     }
 
     .card2-header {
@@ -318,17 +325,22 @@ the accordion item with the active class*/
     .accordion-item {
         width: 20em;
     }
+
+    .accordion-item-information {
+        top: 20%;
+    }
+
     .item-active {
-        height: 57em;
+        height: 64em;
     }
     .card2-header a {
     
     }
     .item-active .accordion-item-title {
         position: absolute;
-        left: 11em;
+        left: 10em;
         top: 2.25em;
-        width: 9em;
+        width: 8em;
         height: 5em;
     }
     .accordion-item p {
