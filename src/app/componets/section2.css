@@ -298,13 +298,13 @@ the accordion item with the active class*/
         width: 23em;
     }
     .item-active {
-        height: 51em;
+        height: 53em;
     }
     .item-active .accordion-item-title {
         position: absolute;
         left: 9.8em;
         top: 3.5em;
-        width: 12em;
+        width: 14em;
         height: 5em;
     }
 }
