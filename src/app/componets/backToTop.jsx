@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import './backToTop.css';
 
+
 function BackToTopButton() {
   const [buttonState, setButtonState] = useState("hidden");
 

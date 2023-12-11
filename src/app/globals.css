@@ -13,11 +13,12 @@
     background: #ffffff;
     font-family: sans-serif;
     padding: 0;
+    overflow-x: hidden;
   }
     
   header {
     min-height: 100vh;
-    background-image: url("./componets/images/paws_in_snow_2.jpg");
+    background-image: url("./componets/images/pawprint2edited.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -29,4 +30,19 @@
   section {
     padding: 7em;
     display: flex;
+  }
+
+  p {
+    color: black;
+  }
+
+  @media screen and (max-width: 700px) {
+    header {
+      background-image: url("./componets/images/pawprint2edited2Mobile.jpg");
+    }
+    section {
+      padding: 7em 0em 6em 0em;
+      display: flex;
+      
+    }
   }

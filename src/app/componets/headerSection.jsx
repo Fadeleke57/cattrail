@@ -1,29 +1,38 @@
 'use client'
 import Image from 'next/image'
 import './headerSection.css'
-import cattrail_white from './images/cattrail_white.svg'
+import cattrail_green from './images/cattrail_green.svg'
 import Button from './buttons'
-import FadeUp from './fadeUp'
-import { useState, useEffect } from 'react'
+import { Fade } from "react-awesome-reveal";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+
 
 function Header() {
-
     return (
-        <header>
-            <div className='header-content-div'>
-            
-                <div className='header-logo-div'><Image className='cattrail-image' src={cattrail_white} width={500} height={200}/></div>
-                
-                <FadeUp>
-                <div className='header-text-div'><h3>a single-family office</h3></div>
-                </FadeUp>
-
-                <FadeUp>
-                <div className='header-button-div'><Button type="btn-secondary" value="Contact Us"></Button></div>
-                </FadeUp>
-            </div>
-        </header>
-    )
-}
-
-export default Header;
+      <header>
+        <div className='header-content-div'>
+            <Fade cascade direction='up' triggerOnce>
+              <div className='header-logo-div'>
+                <Image className='cattrail-image' src={cattrail_green} alt='logo' />
+              </div>
+  
+              <div className='header-text-div'>
+                <p>A single-family office serving the Dekker family</p>
+              </div>
+  
+              <div className='header-button-div'>
+                <Button type="btn-tertiary" value="Contact Us" />
+              </div>
+            </Fade>
+        </div>
+        <a href='#About'>
+        <div className='header-arrow-div'>
+          <FontAwesomeIcon icon={faArrowDown} bounce className='header-arrow-icon' />
+        </div>
+        </a>
+      </header>
+    );
+  }
+  
+  export default Header;

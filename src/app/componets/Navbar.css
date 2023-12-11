@@ -43,8 +43,16 @@
     height: 100%;
   }
 
+  .menu-logo {
+    width: 9em;
+    display: none;
+    height: auto;
+  }
+
   .navbar-img {
     transition: 0.5s ease-in-out;
+    width: 90px;
+    height: 90px;
   }
   
   .menu-btn {
@@ -55,7 +63,7 @@
   }
   
   .menu-btn:hover {
-    color: #ffffff;
+    color: #000000;
   }
   
   .navbar-active {
@@ -63,34 +71,68 @@
     background: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
   }
+
+  .navbar-active .navbar-img {
+    width: 70px;
+    height: 70px;
+  }
   
   @media screen and (max-width: 800px) {
+
     .menu-btn {
       display: block; 
     }
-    
+
+    .menu-logo {
+      display: flex;
+    }
+
     .menu {
       position: absolute;
-      top: 2.85em;
+      top: 3.28em;
       left: -100%;
       width: 100%;
       height: 100vh;
-      background: rgba(24, 24, 24, 0.8);
+      background: rgb(243, 248, 243);
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       overflow-y: hidden;
+      z-index: 1000;
+      padding: 2em 0;
     }
 
-    .navbar-active {
-      padding: .9em;
-    }
+
     /*Dynamic class added 
     later with Javascript*/
     .navbar .menu-open {
       left: 0;
-      font-size: 20px;
-      gap: 5em;
+      font-size: 1.5em;
+      gap: 2em;
       font-weight: 500;
+    }
+
+    .navbar {
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+      position: fixed;
+    }
+
+    .navbar-img {
+      width: 75px;
+      height: 75px;
+    }
+
+    .navbar-active .navbar-img {
+      width: 75px;
+      height: 75px;
+    }
+
+    .menu a {
+      width: 100%;
+    }
+
+    .brand {
+      margin-right: 14em;
     }
 
   }
