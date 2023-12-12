@@ -339,6 +339,21 @@ the accordion item with the active class*/
         color: black;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
+    .accordion .accordion-item:nth-child(3).item-active {
+        height: 42em;
+    }
+
+    .accordion .accordion-item:nth-child(3).item-active .accordion-item-information {
+        top: 26%;
+    }
+
+    .accordion .accordion-item:nth-child(2).item-active {
+        height: 36em;
+    }
+
+    .accordion .accordion-item:nth-child(2).item-active .accordion-item-information {
+        top: 30%;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -375,6 +390,22 @@ the accordion item with the active class*/
         font-size: 1.4em;
         color: black;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .accordion .accordion-item:nth-child(3).item-active {
+        height: 43em;
+    }
+
+    .accordion .accordion-item:nth-child(3).item-active .accordion-item-information {
+        top: 25%;
+    }
+
+    .accordion .accordion-item:nth-child(2).item-active {
+        height: 36em;
+    }
+
+    .accordion .accordion-item:nth-child(2).item-active .accordion-item-information {
+        top: 30%;
     }
 
     .accordion .accordion-item:nth-child(3).item-active .accordion-item-title {
