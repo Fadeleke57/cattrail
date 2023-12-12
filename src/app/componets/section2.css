@@ -305,10 +305,10 @@ the accordion item with the active class*/
         width: 23em;
     }
     .item-active {
-        height: 52em;
+        height: 53em;
     }
     .accordion-item-information {
-        top: 21%;
+        top: 20%;
     }
     .item-active .accordion-item-title {
         position: absolute;
