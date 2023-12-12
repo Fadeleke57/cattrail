@@ -13,9 +13,9 @@ function Section1 () {
 
     const [showMore1, setShowMore1] = useState(false)
     const [showMore3, setShowMore3] = useState(false)
-    const text3 = "Cat Trail attempts to optimize the impact of its giving strategy and works with the Dekker Foundation to support its philanthropic mission. More information on the Dekker Foundation can be found here. Cat Trail also recognizes the importance of learning and developing financial acumen. In support of financial literacy, Cat Trail provides programs intended to develop financial-skills education to family members across generations. Cat Trail has also cultivated an outreach to universities to offer summer internships. These educational training programs offer flex time to carefully selected college students.";
+    const text3 = "Cat Trail attempts to optimize the impact of its giving strategy and works with the Dekker Foundation to support its philanthropic mission. More information on the Dekker Foundation can be found here. Cat Trail also recognizes the importance of learning and developing financial acumen. In support of financial literacy, Cat Trail provides programs intended to develop financial-skills education to family members across generations. Cat Trail has also cultivated an outreach to universities to offer summer internships. These educational training programs offer flex time to carefully selected college students.    ";
 
-    const text1 = "Cat Trail takes strategic positions in publicly traded securities, makes placements with unique fund managers, manages a portfolio of real assets, and occasionally invests in small private companies. Investing in both debt and equity, Cat Trail establishes active, on-going relationships with those with whom it invests. Investment partners are carefully selected based on their ability to achieve differentiation and generate true “alpha”.";
+    const text1 = "Cat Trail takes strategic positions in publicly traded securities, makes placements with unique fund managers, manages a portfolio of real assets, and occasionally invests in small private companies. Investing in both debt and equity, Cat Trail establishes active, on-going relationships with those with whom it invests. Investment partners are carefully selected based on their ability to achieve differentiation and generate true “alpha”.   ";
 
 
     return (
@@ -66,7 +66,7 @@ function Section1 () {
                 <p>
                 {showMore1 ? text1 : text1.substring(0, 350)}
                     <button className='show-more' onClick={() => setShowMore1(!showMore1)}>
-                        {showMore1 ? "...Show less" : "...Show more"}
+                        {showMore1 ? " Show less" : "...Show more"}
                     </button>
                 </p>
         
@@ -89,7 +89,7 @@ function Section1 () {
                 <p>
                 {showMore3 ? text3 : text3.substring(0, 350)}
                     <button className='show-more' onClick={() => setShowMore3(!showMore3)}>
-                        {showMore3 ? "...Show less" : "...Show more"}
+                        {showMore3 ? " Show less" : "...Show more"}
                     </button>
                 </p>
                 
