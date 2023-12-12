@@ -163,6 +163,7 @@ the accordion item with the active class*/
     background-color: #E7E7E7;
     width: 32em;
     border-bottom: 2px var(--accent) solid;
+    cursor: auto;
 }
 
 .item-active > div {
@@ -180,11 +181,27 @@ the accordion item with the active class*/
 .item-active .accordion-item-title {
     position: absolute;
     left: 12em;
-    top: 4em;
+    top: 2.7em;
 }
 
 .item-active::before {
     opacity: 1;
+}
+
+.accordion-linkedIn-icon {
+    width: 2em;
+    height: 2em;
+    z-index: 5;
+}
+
+.accordion-linkedin-button {
+    background: none;      
+    border: none;         
+    padding: 0;             
+    cursor: pointer;        
+    display: inline-flex;   
+    align-items: center;    
+    justify-content: center;
 }
 
 @media screen and (max-width: 1300px) {
@@ -268,7 +285,7 @@ the accordion item with the active class*/
     .item-active .accordion-item-title {
         position: absolute;
         left: 11em;
-        top: 3em;
+        top: 2.60em;
         width: 12em;
         height: 5em;
     }
@@ -313,7 +330,7 @@ the accordion item with the active class*/
     .item-active .accordion-item-title {
         position: absolute;
         left: 9.8em;
-        top: 3.5em;
+        top: 2.5em;
         width: 14em;
         height: 5em;
     }
@@ -341,13 +358,42 @@ the accordion item with the active class*/
     }
     .item-active .accordion-item-title {
         position: absolute;
-        left: 10em;
-        top: 2.25em;
-        width: 8em;
+        left: 9.5em;
+        top: 1.7em;
+        width: 10em;
         height: 5em;
     }
     .accordion-item p {
 
     }
-    
+    .item-active .accordion-item-pfp {
+        width: 7em;
+        height: 7em;
+        left: 5em;
+    }
+    .accordion-item-title h2 {
+        font-size: 1.4em;
+        color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .accordion .accordion-item:nth-child(3).item-active .accordion-item-title {
+        position: absolute;
+        left: 9.5em;
+        top: 1.5em;
+        width: 8em;
+        height: 5em;
+    }
+
+    .accordion .accordion-item:nth-child(2).item-active .accordion-item-title {
+        position: absolute;
+        left: 9.5em;
+        top: 2.35em;
+        width: 10em;
+        height: 5em;
+    }
+
+    .accordion .accordion-item:nth-child(2).item-active .accordion-item-title h2 {
+        font-size: 1.25em;
+    }
 }
