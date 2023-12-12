@@ -150,7 +150,7 @@ the accordion item with the active class*/
 .accordion-item-information {
     width: 100%;
     position: absolute;
-    top: 29%;
+    top: 30%;
 }
 
 .accordion-item p {
@@ -305,7 +305,7 @@ the accordion item with the active class*/
         width: 23em;
     }
     .item-active {
-        height: 50em;
+        height: 52em;
     }
     .accordion-item-information {
         top: 22%;
