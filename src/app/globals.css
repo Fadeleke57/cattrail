@@ -18,9 +18,7 @@
     
   header {
     min-height: 100vh;
-    background-image: url("./componets/images/pawprint2edited.jpg");
-    background-size: cover;
-    background-position: center;
+
   }
 
   ul {

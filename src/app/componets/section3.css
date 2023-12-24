@@ -47,6 +47,9 @@
     border-radius: 1.5em;
 }
 
+.card3-history-graphic-mobile:hover {
+    opacity: 80%;
+}
 
 small {
     font-weight: 600;
