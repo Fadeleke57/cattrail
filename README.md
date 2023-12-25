@@ -25,7 +25,7 @@ GSAP (GreenSock Animation Platform): Employed for creating high-performance, pro
 Vercel: Utilized for deploying and hosting the website, providing a smooth integration with NextJS projects.
 <br>
 EmailJS: Used for handling email communication directly from the website without requiring a backend server.
-
+<br><br>
 Development Timeline:
 <br>
 October 2023 - December 2023: The development of the website spanned from October 2023 to December 2023, involving stages of planning, design, implementation, and testing.
