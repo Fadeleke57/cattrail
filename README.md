@@ -16,7 +16,7 @@ Responsive Design: Ensures a seamless user experience across various devices and
 Contact Form Integration: Utilizes EmailJS for efficient and direct communication with potential clients and inquiries.
 <br>
 
-Technologies:
+## Technologies:
 <br>
 NextJS
 <br>
@@ -25,7 +25,7 @@ GSAP (GreenSock Animation Platform): Employed for creating high-performance, pro
 Vercel: Utilized for deploying and hosting the website, providing a smooth integration with NextJS projects.
 <br>
 EmailJS: Used for handling email communication directly from the website without requiring a backend server.
-<br>
+
 Development Timeline:
 <br>
 October 2023 - December 2023: The development of the website spanned from October 2023 to December 2023, involving stages of planning, design, implementation, and testing.
