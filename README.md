@@ -1,36 +1,31 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Cat Trail Website
+Website: [Cat Trail Investment Company](https://www.cattrail.com/)
 
-First, run the development server:
+Description:
+<br>
+This project entails the creation of a website for Cat Trail, an investment company serving the Dekker family. The website aims to provide a professional online presence, showcasing the company's services, philosophy, and investment approaches, tailored specifically to the needs and interests of the Dekker family.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Key Features:
+<br>
+Custom GSAP Animations: Enhances user experience with sophisticated, smooth animations for a dynamic website interface.
+<br>
+Responsive Design: Ensures a seamless user experience across various devices and screen sizes.
+<br>
+Contact Form Integration: Utilizes EmailJS for efficient and direct communication with potential clients and inquiries.
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Technologies:
+<br>
+NextJS
+<br>
+GSAP (GreenSock Animation Platform): Employed for creating high-performance, professional animations.
+<br>
+Vercel: Utilized for deploying and hosting the website, providing a smooth integration with NextJS projects.
+<br>
+EmailJS: Used for handling email communication directly from the website without requiring a backend server.
+<br>
+Development Timeline:
+<br>
+October 2023 - December 2023: The development of the website spanned from October 2023 to December 2023, involving stages of planning, design, implementation, and testing.
