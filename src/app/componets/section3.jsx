@@ -4,8 +4,26 @@ import Image from 'next/image'
 import HistoryGraphic from './images/history_section_svg.svg'
 import catHiding from './images/cat_in_tree_resized.jpg'
 import { Fade } from "react-awesome-reveal";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect } from 'react';
 
 function Section3 () {
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    useEffect(() => {
+      // Banner parallax animation
+      gsap.to(".card3-history-graphic", {
+        y: -150, // Move on the y axis
+        scrollTrigger: {
+          trigger: ".card3", // Use header class as animation trigger
+          start: "top top", // Set trigger start position
+          scrub: true, // Have the animation follow the scroll position
+        }
+      });
+    }, []); // Empty dependency array ensures this runs once after initial render
+
     return (
         <section className="card3" id="History">
             
