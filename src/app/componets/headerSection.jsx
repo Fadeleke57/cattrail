@@ -9,14 +9,14 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import BackgroundImage from './images/pawprint2edited.jpg'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useEffect } from 'react';
+import { useGSAP } from '@gsap/react'
 
 
 function Header() {
 
     gsap.registerPlugin(ScrollTrigger);
 
-    useEffect(() => {
+    useGSAP(() => {
       // Banner parallax animation
       gsap.to(".bg-image", {
         y: 300, // Move on the y axis
