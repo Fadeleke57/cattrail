@@ -17,12 +17,12 @@ function Section3 () {
       gsap.to(".card3-history-graphic", {
         y: -150, // Move on the y axis
         scrollTrigger: {
-          trigger: ".card3", // Use header class as animation trigger
-          start: "top top", // Set trigger start position
-          scrub: true, // Have the animation follow the scroll position
+          trigger: ".card3",
+          start: "top top",  
+          scrub: true, 
         }
       });
-    }, []); // Empty dependency array ensures this runs once after initial render
+    }, []); 
 
     return (
         <section className="card3" id="History">
