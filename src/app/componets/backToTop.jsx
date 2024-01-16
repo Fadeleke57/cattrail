@@ -6,7 +6,6 @@ import './backToTop.css';
 function BackToTopButton() {
   const [buttonState, setButtonState] = useState("hidden");
 
-  // Scroll event listener to show/hide the button
   useEffect(() => {
     const scrollListener = () => {
       if (window.scrollY > 150) {
