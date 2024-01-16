@@ -23,7 +23,6 @@ function Section2() {
 
       };
 
-      // Set the initial value based on the client's window size
       handleResize();
 
       // Debounce resize function
@@ -64,7 +63,7 @@ function Section2() {
       },
     ];
 
-    // Debounce function to limit the rate of function execution
+    //limits the rate of function execution
     function debounce(func, delay) {
       let timer;
       return function(...args) {
