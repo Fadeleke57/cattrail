@@ -21,7 +21,7 @@ function Header() {
       gsap.to(".bg-image", {
         y: 300, // move on the y axis
         scrollTrigger: {
-          trigger: ".header-gsap-animation", // Use header class as animation trigger
+          trigger: ".header-gsap-animation",
           start: "top top", // sets trigger start position
           scrub: true, // makes the animation follow the scroll position
         }
