@@ -17,16 +17,16 @@ function Header() {
     gsap.registerPlugin(ScrollTrigger);
 
     useGSAP(() => {
-      // Banner parallax animation
+      // parallax animation
       gsap.to(".bg-image", {
-        y: 300, // Move on the y axis
+        y: 300, // move on the y axis
         scrollTrigger: {
           trigger: ".header-gsap-animation", // Use header class as animation trigger
-          start: "top top", // Set trigger start position
-          scrub: true, // Have the animation follow the scroll position
+          start: "top top", // sets trigger start position
+          scrub: true, // makes the animation follow the scroll position
         }
       });
-    }, []); // Empty dependency array ensures this runs once after initial render
+    }, []); // makes sure this runs once after initial render
 
     return (
       <header className='header-gsap-animation'>
