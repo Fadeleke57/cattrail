@@ -100,8 +100,10 @@ function Section2() {
   
     return (
       <section className="card2" id="Team">
-        
-        <div className='card2-header'>
+
+        <div className='card2-content'>
+
+          <div className='card2-header'>
             <Fade cascade direction='up' triggerOnce>
             <div className='card2-header-content'>
             <h1>Who We Are</h1> 
@@ -142,6 +144,9 @@ function Section2() {
           ))}
         </div>
         </Fade>
+
+        </div>
+        
       </section>
     );
   }

@@ -1,8 +1,15 @@
 .card2 {
     min-height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2-content {
+    display: flex;
     flex-direction: row;
     gap: 0px;
+    max-width: 1300px;
 }
 
 .card2-header {
