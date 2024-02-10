@@ -42,7 +42,7 @@ function Section1 () {
                     </div>
 
                     <div>
-                        <p>Cat Trail is a single family office (SFO), a private investment company focused on growing its General Partners’ capital.
+                        <p style={{maxWidth: '450px'}}>Cat Trail is a single family office (SFO), a private investment company focused on growing its General Partners’ capital.
                         </p><br></br>
                     </div>
 
