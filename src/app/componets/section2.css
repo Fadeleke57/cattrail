@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .card2-content {
@@ -222,11 +223,21 @@ the accordion item with the active class*/
         flex-direction: column;
     }
 
+    .card2 {
+        padding: 0;
+    }
+
     .card2-content {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 1em 1em 5em 1em;
+    
+    }
+
+    .card2-header {
+        padding: 0;
+  
     }
 
     .accordion-item {
