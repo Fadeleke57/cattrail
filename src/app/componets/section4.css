@@ -13,7 +13,7 @@
     flex-direction: row;
     gap: 5em;
     position: relative;
-    box-shadow: 0 5px 5px 0 rgba(60, 79, 59, 0.3);
+    /*box-shadow: 0 5px 5px 0 rgba(60, 79, 59, 0.3);*/
 }
 
 .card4-contact-inputs {
