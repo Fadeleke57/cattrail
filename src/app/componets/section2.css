@@ -386,18 +386,12 @@ the accordion item with the active class*/
     .item-active {
         height: 57em;
     }
-    .card2-header a {
-    
-    }
     .item-active .accordion-item-title {
         position: absolute;
         left: 9.5em;
         top: 1.7em;
         width: 10em;
         height: 5em;
-    }
-    .accordion-item p {
-
     }
     .item-active .accordion-item-pfp {
         width: 7em;
