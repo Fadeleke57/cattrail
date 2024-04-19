@@ -104,7 +104,7 @@ function Section2() {
         <div className='card2-content'>
 
           <div className='card2-header'>
-            <Fade cascade direction='up' triggerOnce>
+        
             <div className='card2-header-content'>
             <h1>Who We Are</h1> 
             {isMobile ? <div/>: <br></br> }
@@ -117,11 +117,9 @@ function Section2() {
               <Button value="Andrew Budinoff" type="btn-quaternary" onClick={handleItemClick2}></Button>
             </div>
             </div>
-            </Fade>
+        
         </div>
-
-
-        <Fade direction='up' triggerOnce>
+      
         <div className="accordion">
             {accordionItems.map((item, index) => (
             <div
@@ -143,7 +141,6 @@ function Section2() {
             </div>
           ))}
         </div>
-        </Fade>
 
         </div>
         

@@ -28,23 +28,23 @@ function Section3 () {
         <section className="card3" id="History">
             
         <div className="card3-content">
-            <Fade triggerOnce direction='up' >
+         
             <div className="card3-history-graphic-div-mobile">
                 <Image className="card3-history-graphic-mobile" src={catHiding} alt='cat in tree'></Image>
             </div>
-            </Fade>   
+             
 
             <div className="card3-history">
-                <Fade triggerOnce direction='up' >
+                
                 <div>
                     <small><i>About Cat Trail.</i></small><br/><br/> 
                 </div>
                 <h1>History</h1><br></br>
                 <h2>Cat Trail is an investment company serving the Dekker family.</h2>
                 <br></br>
-                </Fade>
+              
 
-                <Fade triggerOnce direction='up' >
+           
                 <p>
                 {/*MAKE SURE TO REPLACE APOSTROPHES WITH UNICODE VALUES FOR BUILD*/}
                 Cat Trail was founded by David Dekker after Marcel Dekker, Inc. was acquired at the end of 2003. Marcel Dekker, Inc. (Dekker) was a scientific/technological/medical (STM) publishing company founded by David and Russell&#39;s father, Marcel Dekker, in 1964. Prior, Marcel worked in marketing and sales for the publishing firm, Interscience, which was founded by Marcel&#39;s father, Maurits Dekker, and Eric Proskauer in 1947. Interscience merged with John Wiley & Sons in 1963, becoming Wiley-Interscience.
@@ -64,7 +64,7 @@ function Section3 () {
                 <p>
                 In 2003, Dekker&#39;s Board of Directors agreed to sell Dekker to the Taylor & Francis Group, plc (T&F). Dekker&#39;s American base and digital activism made it an especially good fit with the more English and print-centric T&F. Russell and David worked for T&F, honoring their required employment contracts, but left soon after to establish new ventures. Now well-established and with better resources, Cat Trail has become a full-service investment boutique for the Dekker family.
                 </p>
-                </Fade>
+             
             </div>
             
             

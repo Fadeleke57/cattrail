@@ -31,7 +31,8 @@
   }
   
   .brand {
-    margin-right: 4em;
+    margin-right: 6em;
+    padding: 0;
   }
   
   .menu {
@@ -52,8 +53,8 @@
 
   .navbar-img {
     transition: 0.5s ease-in-out;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
   }
   
   .menu-btn {
@@ -70,13 +71,14 @@
   .navbar-active {
     position: fixed;
     background: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2.5px 2.5px 0 rgba(0, 0, 0, 0.2);
   }
 
   .navbar-active .navbar-img {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
   }
+
   
   @media screen and (max-width: 800px) {
 

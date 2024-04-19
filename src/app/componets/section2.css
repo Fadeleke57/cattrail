@@ -65,7 +65,7 @@
     border-radius: 3em;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 1em rgba(113, 135, 112, 0.6);
+
     border-bottom: 2px transparent solid;
     cursor: pointer;
     transition: 200ms cubic-bezier(.91,.36,.84,.6);

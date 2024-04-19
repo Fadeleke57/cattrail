@@ -51,7 +51,7 @@
     background: #3A4F39;
     color: #ffffff;
     transition: 0.3s;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    margin-top: 1em;
   }
 
   .btn-tertiary:hover {
@@ -67,7 +67,6 @@
     background: #739271;
     color: #ffffff;
     transition: 0.3s;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
   }
 
   .btn-quaternary:hover {
