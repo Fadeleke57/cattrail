@@ -76,7 +76,7 @@ function Section1 () {
                 <FontAwesomeIcon icon={faMap} className='box-icon' style={{color: "#88b886",}}/> 
                 
                 <h3>Wealth<br></br>Planning</h3> <br></br>
-                <p>Provides a full suite of customized services, Cat Trail coordinates with trusted advisors to meet
+                <p>Providing a full suite of customized services, Cat Trail coordinates with trusted advisors to meet
                 the needs of the Dekkers, extended family and friends. Services include multigenerational estate
                 planning, tax strategy, portfolio reporting &amp; analytics, and financial planning.
                 </p>
