@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: "Cat Trail Capital | Official Website",
   description: "Cat Trail is a single family office (SFO), a private investment company focused on growing its General Partners' capital. Cat Trail takes strategic positions in publicly traded securities, makes placements with unique fund managers, manages a portfolio of real assets, and occasionally invests in small private companies. Investing in both debt and equity, Cat Trail establishes active, on-going relationships with those with whom it invests.",
+  keywords: "David Dekker, Russell Dekker, Andrew Budinoff, Cat Trail Capital LLC, Cat Trail Capital, Private Family Office"
 };
 
 export default function RootLayout({
