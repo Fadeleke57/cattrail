@@ -4,8 +4,6 @@ import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import './form.css'
 
-
-
 // form
 export const Form = () => {
   const formRef = useRef();
@@ -21,9 +19,9 @@ export const Form = () => {
   const messageInput = form.querySelector("#message");
 
   // get data from email JS
-  const publicKey = "iDWeRGfz2ZBgjaR8R";
-  const serviceID = "service_wz5b8es";
-  const templateID = "template_0yn1kqu";
+  const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+  const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+  const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
 
   // start email JS with public key
   emailjs.init(publicKey);

@@ -3,7 +3,7 @@
     width: 100%;
     padding: 0;
     color: black;
-    transition: 0.5s ease-in-out;
+    transition: 0.05s ease-in-out;
     z-index: 100;
     position: fixed;
     left: 0;

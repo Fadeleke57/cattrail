@@ -1,8 +1,6 @@
 'use client'
 
-import Image from 'next/image'
 import styles from './page.module.css'
-import catLogo from './componets/images/cat_logo.svg'
 import BackToTopBtn from './componets/backToTop'
 import Navbar from './componets/navbar'
 import Header from './componets/headerSection'
