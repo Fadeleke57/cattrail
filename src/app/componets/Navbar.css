@@ -3,12 +3,12 @@
     width: 100%;
     padding: 0;
     color: black;
-    transition: 0.05s ease-in-out;
+    transition: transform 0.05s ease;
     z-index: 100;
     position: fixed;
     left: 0;
     top: -0.05em;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
   }
   
   .navbar .container {
@@ -70,15 +70,15 @@
   
   .navbar-active {
     position: fixed;
-    background: rgba(255, 255, 255, 1);
     box-shadow: 0 2.5px 2.5px 0 rgba(0, 0, 0, 0.2);
   }
 
+  /*
   .navbar-active .navbar-img {
     width: 75px;
     height: 75px;
   }
-
+*/
   
   @media screen and (max-width: 800px) {
 

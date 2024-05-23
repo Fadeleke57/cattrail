@@ -164,7 +164,7 @@ the accordion item with the active class*/
 .accordion-item p {
     font-size: 0.91em;
     font-weight: 500;
-    color: black;
+    color: rgb(51, 51, 51);
 }
 
 .item-active {
